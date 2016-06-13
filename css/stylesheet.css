@@ -1,0 +1,44 @@
+	#main{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid gray;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.need-it, .got-it {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	border: 1px solid gray;
+	color: gray;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	width: 50%;
+}
+ul {
+	width: 40%;
+	font-size: 1.5em;
+}
+input {
+	width: 40%;
+	height: 1.5em;
+	border-radius: .75em;
+}
+button {
+	height:2em;
+	border-radius: .75em;
+}
+@media (max-width: 500px){
+	.need-it, .got-it {
+		width: 100%;
+		background-color: black;
+		color: gray	;
+		font-family: sans-serif;
+}
+}
