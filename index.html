@@ -10,23 +10,25 @@
 		<div class="need-it">
 			<form>
 				<input type="text" placeholder="enter items to add">
-				<button>+</button>
+				<button id="input">+</button>
 			</form>
 			<h1>Need It</h1>
-			<ul>
-				<li>cheese</li>
-				<li>milk</li>	
-				<li>cow</li>
-				<li>bread</li>
+			<ul id="list">
+				<li>cheese	<button class="kill">Kill It</button></li>
+				<li>milk	<button class="kill">Kill It</button></li>	
+				<li>cow	<button class="kill">Kill It</button></li>
+				<li>bread	<button class="kill">Kill It</button></li>
 			</ul>
 		</div>
 		<div class="got-it">
 			<h1>Got It</h1>
-			<ul>
-				<li>&#x2611;coffee	<button>Kill It</button></li>
-				<li>&#x2611;filters	<button>Kill It</button></li>
+			<ul id="list">
+				<li>&#x2611;coffee	<button class="kill">Kill It</button></li>
+				<li>&#x2611;filters	<button class="kill">Kill It</button></li>
 			</ul>
 		</div>
 	</div>
+	<script src="js/jquery-3.0.0.min.js"></script>
+	<script src="js/do-stuff.js"></script>
 </body>
 </html>
