@@ -8,6 +8,7 @@
 	justify-content: center;
 	flex-direction: column;
 }
+
 .need-it, .got-it {
 	width: 75%;
 	margin-left: auto;
@@ -18,29 +19,41 @@
 	display: flex;
 	flex-direction: column;
 }
+
 h1 {
 	width: 50%;
 }
-#list {
+
+#add {
 	width: 40%;
 	font-size: 1.5em;
 }
+
+#got {
+	width: 40%;
+	font-size: 1.5em;
+}
+
 input {
 	width: 40%;
 	height: 1.5em;
 	border-radius: .75em;
 }
+
 button {
 	height:2em;
 	border-radius: .75em;
 }
+
 .kill {
 	display: none;
 	height: 1.65em;
 }
+
 .show {
 	display: inline;
 }
+
 @media (max-width: 500px){
 	.need-it, .got-it {
 		width: 100%;
